@@ -4,9 +4,9 @@ The list of functions available in HoN. These can be printed using the [console]
 
 | Function Name                                                | Notes                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Ceil                                                         | Ceils the *float* parameter by rounding it up to the next largest integer. |
+| *int* Ceil(*float*)                                          | Ceils the *float* parameter by rounding it up to the next largest integer. |
 | Choose                                                       |                                                              |
-| *int* Floor(*float*);                                        | Floors the *float* parameter by rounding it down to the nearest integer. |
+| *int* Floor(*float*)                                         | Floors the *float* parameter by rounding it down to the nearest integer. |
 | FormatStringNewline                                          |                                                              |
 | *string* FtoA(*float*, *int*)                                | Converts a *float* to a *string*, containing *int* decimal places. |
 | GetActiveClientIndex                                         |                                                              |
@@ -24,8 +24,8 @@ The list of functions available in HoN. These can be printed using the [console]
 | GetHeroStoreScaleFromProduct                                 |                                                              |
 | GetLocalClientNum                                            |                                                              |
 | GetLocalClientNumber                                         |                                                              |
-| GetMicBoost                                                  |                                                              |
-| GetMicVolume                                                 |                                                              |
+| *bool* GetMicBoost()                                         | Returns whether or not the microphone boost setting is enabled. |
+| *float* GetMicVolume()                                       | Returns a value from 0.0 to 1.0 corresponding to the current microphone volume setting. |
 | GetScriptParam                                               |                                                              |
 | GetSelectedEntity                                            |                                                              |
 | GetTerrainType                                               |                                                              |
