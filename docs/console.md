@@ -126,6 +126,14 @@ HoN saves the console logs to a `console.log` text file, which can be found at t
 
 You can force the logs to flush by issuing the following command to the console: `FlushLogs`.
 
+## Errors in Console
+
+| Type:  | Function:       | Description:                          | How To Fix:                                                  |
+| ------ | --------------- | ------------------------------------- | ------------------------------------------------------------ |
+| ICVAR: | :Addreference() | Could not find a free reference slot. | Shorten the reference, for example:  `the_variable_plus_attributes_witch_causes_long_referance`  -->   `var_plus_attri_w_cause_long_ref` |
+
+
+
 ## Current console command list
 
 The following is the list of commands, as of `5/27/2019`. There are currently `496` commands.
