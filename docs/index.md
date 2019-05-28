@@ -7,6 +7,7 @@ Fortunately, since the beginning, HoN has always allowed [modding](https://en.wi
 # Table of Contents
 
  1. [Understanding HoN Mods](understanding_hon_mods.md)
-  2. [Console](console.md)
-  3. [Console Variables](console_variables.md)
+ 2. [Console](console.md)
+ 3. [Console Variables](console_variables.md)
 
+{% include_relative console.md %}
