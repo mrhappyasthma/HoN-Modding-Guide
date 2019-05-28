@@ -36,6 +36,13 @@ textures.s2z
 
 If you want, you could copy any of these files and rename the copy from `.s2z` to `.zip` and then  extract the files from the archive and you can actually view all of the HoN resource files.
 
+ 
+
+Inside resources0.s2z the most of the code for the game lies, such as the effects and sounds from the heroes, item-icons and the ui(user interface) and probably everything that is client-side.
+
+
+When you start the game, it wil load all "resourcesXXX.s2z", starting from the **lowest** number (0), and working it's way upwards. If I make a mod, I would name it to the next number (resources1.s2z, then resources2.s2z and keep going upwards). Inside this zip-folder I would put MY files, the ones I would like to edit. For it to work, I would have to open the "resources0.s2z" and copy the file that contains the code I want to edit (You have to open the file yourself, to see what I am talking about, as it is kind of hard to explain), then make a new .s2z file with it, and this new file will override the original one.   
+
 ## Interface Size
 
 The interface is 100h, the game-scene is 88h tall, the width of it depends on the resolution of the screen.
