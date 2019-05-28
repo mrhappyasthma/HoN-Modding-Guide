@@ -32,7 +32,7 @@ The list of functions available in HoN. These can be printed using the [console]
 | *string* LowerString(*string*)                               | Returns a lower-case version of the *string*.                |
 | PlayHeroPreviewSoundFromProduct                              |                                                              |
 | *int* SearchString(*string* <my_string>,*string* <search_string>,*int* <start_position>) | *int* returned is the location of the start of the string.   |
-| *bool* StringEquals(*string*, *string*)                      | Compares two strings and returns a *bool*, `true` if they're the same. `False` otherwise. |
+| *bool* StringEquals(*string*, *string*)                      | Compares two strings and returns a *bool*, `true` if they're the same. `false` otherwise. |
 | *int* StringLength(*string*)                                 | Returns the amount of characters in a string.                |
 | StripChar                                                    |                                                              |
 | *string* Substring(*string* <my_string>,*int* <starting_position>,*int* <length_of_substring>) | Returns the substring requested.                             |
