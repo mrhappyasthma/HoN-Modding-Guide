@@ -1,6 +1,6 @@
-{% include_relative table_of_contents.md %}
-
 # Console Variables (cvars)
+
+{% include_relative table_of_contents.md %}
 
 Console Variables (cvars) are pieces of data temporarily stored in memory to hold reference to specific values.
 

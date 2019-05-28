@@ -1,6 +1,6 @@
-{% include_relative table_of_contents.md %}
-
 # Understanding HoN Mods
+
+{% include_relative table_of_contents.md %}
 
 ## Background on HoN
 
