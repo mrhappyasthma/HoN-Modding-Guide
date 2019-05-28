@@ -1,3 +1,5 @@
+{% include_relative table_of_contents.md %}
+
 # HoN Console
 
 HoN includes a built-in console that can be entered at any time using `ctrl + f8` (`cmd + f8` on Mac). You can exit the console by issuing the same command again.

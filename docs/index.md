@@ -4,10 +4,4 @@
 
 Fortunately, since the beginning, HoN has always allowed [modding](https://en.wikipedia.org/wiki/Modding) of the game client. A list of existing mods and other resources can be found on the [forums](https://forums.heroesofnewerth.com/forumdisplay.php?290-Bots-and-Modifications).
 
-# Table of Contents
-
- 1. [Understanding HoN Mods](understanding_hon_mods.md)
- 2. [Console](console.md)
- 3. [Console Variables](console_variables.md)
-
-{% include_relative console.md %}
+{% include_relative table_of_contents.md %}
