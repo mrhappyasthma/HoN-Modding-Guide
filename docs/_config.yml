@@ -4,7 +4,3 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-include:
-  - Console Variables.md
-  - Console.md
-  - index.md
