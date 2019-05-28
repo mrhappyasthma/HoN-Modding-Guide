@@ -36,3 +36,6 @@ textures.s2z
 
 If you want, you could copy any of these files and rename the copy from `.s2z` to `.zip` and then  extract the files from the archive and you can actually view all of the HoN resource files.
 
+## Interface Size
+
+The interface is 100h, the game-scene is 88h tall, the width of it depends on the resolution of the screen.
